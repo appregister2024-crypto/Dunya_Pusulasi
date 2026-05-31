@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="112" fill="#0f0f0f"/>
+  <rect x="0" y="488" width="512" height="24" rx="0" fill="#c8411a"/>
+  <circle cx="256" cy="248" r="150" fill="none" stroke="#2a2a2a" stroke-width="8"/>
+  <circle cx="256" cy="248" r="130" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+  <!-- Compass rose lines -->
+  <line x1="256" y1="108" x2="256" y2="388" stroke="#2a2a2a" stroke-width="2"/>
+  <line x1="116" y1="248" x2="396" y2="248" stroke="#2a2a2a" stroke-width="2"/>
+  <!-- North needle -->
+  <polygon points="256,118 270,248 256,238 242,248" fill="#c8411a"/>
+  <!-- South needle -->  
+  <polygon points="256,378 270,248 256,258 242,248" fill="#f6f3ed" fill-opacity="0.6"/>
+  <!-- Center dot -->
+  <circle cx="256" cy="248" r="10" fill="#c8411a"/>
+  <circle cx="256" cy="248" r="5" fill="#0f0f0f"/>
+  <!-- Cardinal letters -->
+  <text x="256" y="99" text-anchor="middle" font-family="Georgia,serif" font-size="28" font-weight="bold" fill="#c8411a">N</text>
+  <text x="256" y="413" text-anchor="middle" font-family="Georgia,serif" font-size="22" fill="#666">S</text>
+  <text x="401" y="255" text-anchor="middle" font-family="Georgia,serif" font-size="22" fill="#666">E</text>
+  <text x="111" y="255" text-anchor="middle" font-family="Georgia,serif" font-size="22" fill="#666">W</text>
+  <!-- Decorative dots at 45deg -->
+  <circle cx="362" cy="142" r="4" fill="#3a3a3a"/>
+  <circle cx="362" cy="354" r="4" fill="#3a3a3a"/>
+  <circle cx="150" cy="142" r="4" fill="#3a3a3a"/>
+  <circle cx="150" cy="354" r="4" fill="#3a3a3a"/>
+  <!-- Bottom accent bar -->
+  <rect x="0" y="488" width="512" height="24" rx="0" fill="#c8411a"/>
+</svg>
